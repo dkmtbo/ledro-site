@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow" />
+<meta name="color-scheme" content="dark" />
+<title>ledro — Support</title>
+<style>
+  :root{
+    --bg:#0a0a0a; --panel:#14161b; --line:#262b35;
+    --text:#e8eaf0; --muted:#9aa3b5; --faint:#6b7280;
+    --sky:#4f93d6;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; font-size:16px;
+    padding:40px 20px 64px; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:600px; margin:0 auto}
+
+  .brandbar{display:flex; align-items:center; gap:11px; margin-bottom:34px}
+  .brandbar svg{width:30px; height:30px; flex:0 0 auto}
+  .brandbar .name{font-size:19px; font-weight:600; letter-spacing:-.01em}
+
+  h1{font-size:28px; font-weight:700; letter-spacing:-.02em; margin-bottom:14px}
+  .lead{font-size:17px; color:#d5d9e3; margin-bottom:22px}
+
+  .promise{
+    display:inline-block; border:1px solid var(--line); background:var(--panel);
+    border-radius:999px; padding:8px 16px; font-size:14px; color:var(--sky);
+    font-weight:600; margin-bottom:34px;
+  }
+
+  h2{
+    font-size:14px; font-weight:700; text-transform:uppercase; letter-spacing:.09em;
+    color:var(--sky); margin:30px 0 9px;
+  }
+  p{margin-bottom:12px; color:#d5d9e3}
+  a{color:var(--sky)}
+
+  .contact{
+    border:1px solid var(--line); border-radius:14px; background:var(--panel);
+    padding:20px 18px; margin-top:8px;
+  }
+  .contact .label{font-size:13px; color:var(--faint); text-transform:uppercase; letter-spacing:.08em; margin-bottom:6px}
+  .contact .email{font-size:20px; font-weight:600}
+  .contact .email a{text-decoration:none}
+  .contact .note{font-size:14px; color:var(--muted); margin-top:10px; margin-bottom:0}
+
+  footer{
+    margin-top:44px; padding-top:18px; border-top:1px solid var(--line);
+    font-size:13px; color:var(--faint);
+  }
+  footer a{color:var(--muted); text-decoration:none}
+  footer a:hover{color:var(--sky)}
+  footer .row{display:flex; gap:16px; flex-wrap:wrap; margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar">
+    <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M 521.30 140.12 A 372 372 0 0 1 830.97 703.41 L 680.06 612.85 A 196 196 0 0 0 516.90 316.06 Z" fill="#c79a22" />
+      <path d="M 821.01 719.12 A 372 372 0 0 1 340.99 842.36 L 421.90 686.06 A 196 196 0 0 0 674.81 621.13 Z" fill="#4f93d6" />
+      <path d="M 324.69 833.40 A 372 372 0 0 1 140.27 497.93 L 316.14 504.59 A 196 196 0 0 0 413.31 681.34 Z" fill="#7f9e6f" />
+      <path d="M 141.43 479.37 A 372 372 0 0 1 285.89 216.61 L 392.87 356.36 A 196 196 0 0 0 316.76 494.81 Z" fill="#b06058" />
+      <path d="M 300.94 205.67 A 372 372 0 0 1 502.70 140.12 L 507.10 316.06 A 196 196 0 0 0 400.79 350.60 Z" fill="#c4aa8e" />
+    </svg>
+    <span class="name">ledro</span>
+  </div>
+
+  <h1>Support</h1>
+  <p class="lead">ledro is a privacy-first net-worth and budgeting app for iPhone — you track your money by hand, and everything stays on your device.</p>
+  <div class="promise">No bank linking. No data sharing. Ever.</div>
+
+  <h2>Get help</h2>
+  <p>There are no accounts to recover and no data ever leaves your phone, so support is simple: it's just me and one email address. Questions, bug reports, or feature ideas are all welcome, and I read every message.</p>
+
+  <div class="contact">
+    <div class="label">Contact</div>
+    <div class="email"><a href="mailto:bojan.bo.radulovic@gmail.com">bojan.bo.radulovic@gmail.com</a></div>
+    <p class="note">I aim to reply within a couple of days. Including your iPhone model and iOS version helps me track down any bug faster.</p>
+  </div>
+
+  <footer>
+    <div class="row">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:bojan.bo.radulovic@gmail.com">Email</a>
+    </div>
+    <div>© 2026 Darkmont LLC</div>
+  </footer>
+
+</div>
+</body>
+</html>
